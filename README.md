@@ -19,8 +19,6 @@ Esse é um desafio da [Frontend Mentor](https://www.frontendmentor.io).
 
 Feito com **HTML** **CSS**
 
-![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
-
 Hospedado em [Github Pages](https://luqta.github.io/clipboard-landing-page-master/).
 ---
 
