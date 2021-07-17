@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    --primary1: hsl(171, 66%, 44%);
+    --primary2: hsl(233, 100%, 69%);
+
+    --primary1Light: hsla(171, 66%, 44%, 0.822);
+    --primary2Light: hsla(233, 100%, 69%, 0.822);
+
+    --neutral1: hsl(210, 10%, 33%);
+    --neutral2: hsl(201, 11%, 66%);
+
+    --font: 'Bai Jamjuree', sans-serif;
+}
+
+*{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font);
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+p{
+    color: var(--neutral2);
+    max-width: 80%;
+}
+
+h1,h2,h3{
+    max-width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+
+    padding-top: 70px;
+}
+
+header h1{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 2em;
+
+    max-width: 80%;
+}
+
+header p{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+input[type="button"]{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: white;
+
+    max-width: 80%;
+    min-width: 5%;
+}
+
+input[type="button"]:hover{
+    transition: .8s;
+    cursor: pointer;
+}
+
+.IOS{
+    background-color: var(--primary1);
+    box-shadow: 0px 4px 15px var(--primary1);
+}
+
+.IOS:hover{
+    background-color: var(--primary1Light);
+    box-shadow: 0px 4px 15px var(--primary1Light);
+}
+
+.Mac{
+    background-color: var(--primary2);
+    box-shadow: 0px 4px 15px var(--primary2);
+}
+
+.Mac:hover{
+    background-color: var(--primary2Light);
+    box-shadow: 0px 4px 15px var(--primary2Light);
+}
+
+main{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main p{
+    margin: 35px;
+
+    margin-bottom: 75px;
+}
+
+#mainTop{
+    margin-top: 200px;
+    margin: auto;
+    max-width: 80%;
+    min-width: 150px;
+}
+
+#mainTop h2{
+    margin: auto;
+}
+
+#mainTop p{ 
+    max-width: 80%;
+    margin: auto;
+}
+
+#computerContainer{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1300px;
+
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+#computerContainer img{
+    max-width: 90%;
+
+    margin-right: 50px;
+}
+
+#textContainer{
+    max-width: 300px;
+    min-width: 50px;
+    text-align: left;
+    margin-right: 75px;
+}
+
+#textContainer h3{
+    text-align: left;
+    margin: 0;
+    margin-top: 25px;
+}
+
+#textContainer p{
+    margin-top: 15px;
+    margin: 0;
+}
+
+#tabletContainer{
+    margin: auto;
+    max-width: 80%;
+}
+
+#tabletContainer h3{
+    margin: auto;
+}
+
+#tabletContainer p{
+    margin: auto;
+}
+
+#tabletContainer img{
+    max-width: 90%;
+}
+
+#superchargeDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+#superchargeDiv p{
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#superchargeDiv div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topics{
+    max-width: 80%;
+    align-items: center;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+.topics img{
+    width: 50px;
+}
+
+.topics h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.topics p{
+    height: 75px;
+} 
+
+#companiesContainer{
+    margin-top: 75px;
+}
+
+#companiesContainer img{
+    min-width: 10px;
+    max-width: 100px;
+}
+
+#mainBottom{
+    margin-top: 150px;
+}
+
+#mainBottom p{
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+#mainBottom input[type="button"]{
+    margin-top: 5px;
+}
+
+footer{
+    background-color: rgb(238, 238, 238);
+
+    padding: 30px 100px; 
+}
+
+#topFooter{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+#topFooter ul{
+    list-style: none;
+    column-count: 3;
+    column-gap: 40px;
+}
+
+#topFooter a{
+    text-decoration: none;
+    color: var(--neutral1);
+}
+
+#topFooter a:hover{
+    color: var(--primary1);
+    font-weight: 600;
+    transition: .8s;
+}
+
+#topFooter li{
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+#topFooter img{
+    max-width: 85px;
+    min-width: 25px;
+}
+
+#socialDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+#socialDiv svg:hover{
+    cursor: pointer;
+    transition: .5s;
+}
+
+#facebookIcon:hover path{
+    fill: #3a559f;  
+}
+
+#twitterIcon:hover path{
+    fill: #00acee;
+}
+ 
+#instagramIcon:hover path{
+    fill: url(#gradient);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin:auto;
+    margin-top: 25px
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:1000px){
+    header span, #mainBottom span{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 125px;
+    }
+
+    main{
+        margin-top: 250px;
+    }
+
+    #computerContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #computerContainer img{
+        margin-right: 0;
+    }
+
+    #textContainer{
+       text-align: center;
+       margin: 0;
+       margin-top: 50px;
+    }
+
+    #textContainer h3{
+        text-align: center;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #textContainer p{
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #superchargeDiv div{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #companiesContainer{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 100px;
+    }
+
+    #topFooter{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #topFooter ul{
+        column-count: 1;
+        margin-top: 25px;
+    }
+
+    #socialDiv{
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:375px){
+    header{
+        background-image: url(../images/bg-header-mobile.png);
+    }
+}
