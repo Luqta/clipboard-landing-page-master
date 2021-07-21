@@ -353,6 +353,10 @@ footer{
         margin-top: 15px;
     }
 
+    #tabletContainer p{
+        margin-bottom: 25px;
+    }
+
     #superchargeDiv div{
         flex-direction: column;
         margin: auto;
